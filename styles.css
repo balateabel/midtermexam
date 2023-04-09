@@ -1,0 +1,99 @@
+*{
+    font-family: arial;
+
+}
+body{
+    background-color: dimgrey;
+}
+header{
+    background-image: url(https://via.placeholder.com/1920x1080.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin-bottom: 50px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+   
+}
+nav ul li{
+    margin: 0 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+
+
+}
+nav ul a:hover{
+    color: chartreuse;
+}
+h1{
+    font-size: large;
+}
+img{
+    border: 2px solid chartreuse;
+    width: 50%;
+    border-radius: 2px;
+}
+.sub{
+    display: flex;
+
+
+}
+.items{
+    width:calc(33.33%);
+    
+}
+.pic{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.items ul{
+    padding-left: 40%;
+}
+.items ul li{
+    color:greenyellow;
+    
+   
+}
+.items form{
+    align-content: space-evenly;
+    text-align: center;
+}
+footer{
+    background-color:mediumpurple;
+    height: 15vh;
+    margin-top: 20px;
+    text-align: center;
+    padding: 10px;
+
+}
+h3,h4{
+    color: chartreuse;
+
+}
+@media (max-width: 1200px){
+ form textarea ,input {
+     max-width: 80%;
+    }
+}
+@media (max-width: 590px){
+  .sub ,.items  {
+    display: block;
+    width:  100%;
+    margin-bottom: 40px;
+    }
+}
+
+
+ 
+    
